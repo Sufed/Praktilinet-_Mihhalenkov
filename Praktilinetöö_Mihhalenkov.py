@@ -47,7 +47,7 @@ print()
 print()
 #Задача 3.
 from math import *
-вопрос=input("Хочешь узнать день недели? ")
+вопрос=input("День недели? ")
 try:
     if вопрос.lower()=="да":
         number=input("Введи число от 1 до 7: ")
