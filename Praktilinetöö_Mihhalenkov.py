@@ -52,7 +52,7 @@ try:
     if вопрос.lower()=="да":
         number=input("Введи число от 1 до 7: ")
         if number.isdigit() and 1 <=int(number) <=7:
-            дни=["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
+            дни=["Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev", "Pühapäev"]
             print(f"день недели: {дни[int(number)-1]}")
         else:
             print("Viga!")
